@@ -1,0 +1,29 @@
+services:
+    app-service:
+        build: ./services/app
+        ports:
+            - "4002:4002"
+        volumes:
+            - ./services/app:/usr/local/app
+        environment:
+            SECRET_KEY: ${SECRET_KEY}
+            DATABASE_URL: ${DATABASE_URL}
+            NODE_ENV: ${NODE_ENV}
+    user-service:
+        build: ./services/users
+        ports:
+            - "4001:4001"
+        volumes:
+            - ./services/users:/usr/local/users
+        environment:
+            URI_MONGO_DB: ${URI_MONGO_DB}
+            NODE_ENV: ${NODE_ENV}
+    orchestrator:
+        build: ./orchestrator
+        ports:
+            - "80:4000"
+        volumes:
+            - ./orchestrator:/usr/local/orchestrator
+        environment:
+            REDIS_PASSWORD: ${REDIS_PASSWORD}
+            NODE_ENV: ${NODE_ENV}

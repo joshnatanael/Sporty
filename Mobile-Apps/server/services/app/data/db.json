@@ -1,0 +1,137 @@
+{
+  "users": [
+    {
+      "username": "customer1",
+      "email": "customer1@mail.com",
+      "password": "customer1",
+      "role": "customer",
+      "phoneNumber": "081111111111",
+      "address": "Bandung"
+    },
+    {
+      "username": "user2",
+      "email": "user2@mail.com",
+      "password": "user2",
+      "role": "admin",
+      "phoneNumber": "09123123",
+      "address": "address"
+    }
+  ],
+  "products": [
+    {
+      "name": "Adidas NMD",
+      "slug": "adidas-nmd",
+      "description": "Adidas NMD men's shoes",
+      "price": 2300000,
+      "mainImg": "https://id-live-01.slatic.net/p/ee1b70c9b1002164cf2abcc18b09aa2d.jpg",
+      "categoryId": 1,
+      "authorId": 1
+    },
+    {
+      "name": "ADIDAS STAN SMITH PARLEY MEN'S SNEAKERS - WHITE",
+      "slug": "adidas-stan-smith-parley-men's-sneakers---white",
+      "description": "ADIDAS STAN SMITH PARLEY MEN'S SNEAKERS - WHITE",
+      "price": 1320000,
+      "mainImg": "https://www.footlocker.id/media/catalog/product/cache/e81e4f913a1cad058ef66fea8e95c839/0/1/01-ADIDAS-FFSSBADIA-ADIGV7614-White.jpg",
+      "categoryId": 1,
+      "authorId": 1
+    },
+    {
+      "name": "NIKE AIR MAX FLYKNIT RACER MEN'S RUNNING SHOES - PURE PLATINUM BLACK-WHITE-PURE PLATINUM",
+      "description": "NIKE AIR MAX FLYKNIT RACER MEN'S RUNNING SHOES - PURE PLATINUM BLACK-WHITE-PURE PLATINUM",
+      "price": "2489000",
+      "categoryId": 1,
+      "mainImg": "https://www.footlocker.id/media/catalog/product/cache/e81e4f913a1cad058ef66fea8e95c839/0/1/01-NIKE-FFSSBNIK5-NIKDJ6106002-Grey.jpg",
+      "slug": "nike-air-max-flyknit-racer-men's-running-shoes---pure-platinum/black-white-pure-platinum",
+      "authorId": 1
+    },
+    {
+      "name": "ADIDAS ULTRABOOST 22 MEN'S RUNNING SHOES - WHITE TINT",
+      "description": "ADIDAS ULTRABOOST 22 MEN'S RUNNING SHOES - WHITE TINT",
+      "price": "2640000",
+      "categoryId": 1,
+      "mainImg": "https://www.footlocker.id/media/catalog/product/cache/e81e4f913a1cad058ef66fea8e95c839/0/1/01-ADIDAS-F34RUADI5-ADIGY6227-White.jpg",
+      "slug": "adidas-ultraboost-22-men's-running-shoes---white-tint",
+      "authorId": 1
+    },
+    {
+      "name": "NIKE AS M NSW TEE RHYTHM PHOTO MEN'S T-SHIRT - WHITE",
+      "description": "NIKE AS M NSW TEE RHYTHM PHOTO MEN'S T-SHIRT - WHITE",
+      "price": "399000",
+      "categoryId": 2,
+      "mainImg": "https://www.footlocker.id/media/catalog/product/cache/e81e4f913a1cad058ef66fea8e95c839/0/1/01-NIKE-AYAV6NIK5-NIKDR8055100-White.jpg",
+      "slug": "nike-as-m-nsw-tee-rhythm-photo-men's-t-shirt---white",
+      "authorId": 1
+    },
+    {
+      "name": "CHAMPION MEN'S EU CHAMPION HOODIE - BLACK BEAUTY",
+      "description": "CHAMPION MEN'S EU CHAMPION HOODIE - BLACK BEAUTY",
+      "price": "799500",
+      "categoryId": "4",
+      "mainImg": "https://www.footlocker.id/media/catalog/product/cache/e81e4f913a1cad058ef66fea8e95c839/0/1/01-CHAMPION-AAEHDCMP0-CMP217142BLK-Black.jpg",
+      "slug": "champion-men's-eu-champion-hoodie---black-beauty",
+      "authorId": 1
+    },
+    {
+      "name": "UNDER ARMOUR ANSA FIX SLIDE MEN'S SANDALS - HALO GRAY",
+      "description": "UNDER ARMOUR ANSA FIX SLIDE MEN'S SANDALS - HALO GRAY",
+      "price": "379000",
+      "categoryId": "5",
+      "mainImg": "https://www.footlocker.id/media/catalog/product/cache/e81e4f913a1cad058ef66fea8e95c839/0/1/01-UNDER-ARMOUR-SPORT-FFSSDUASA-UAS23761-105-Grey.jpg",
+      "slug": "under-armour-ansa-fix-slide-men's-sandals---halo-gray",
+      "authorId": 1
+    }
+  ],
+  "categories": [
+    {
+      "name": "Shoes",
+      "imgUrl": "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1325&q=80"
+    },
+    {
+      "name": "T-Shirt",
+      "imgUrl": "https://images.unsplash.com/photo-1620799139834-6b8f844fbe61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1372&q=80"
+    },
+    {
+      "name": "Pants",
+      "imgUrl": "https://images.unsplash.com/photo-1602293589930-45aad59ba3ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+    },
+    {
+      "name": "Hoodie",
+      "imgUrl": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1372&q=80"
+    },
+    {
+      "name": "Sandal",
+      "imgUrl": "https://plus.unsplash.com/premium_photo-1663133679087-bc5deb50ab00?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=702&q=80"
+    },
+    {
+      "name": "Sweater",
+      "imgUrl": "https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1372&q=80"
+    }
+  ],
+  "images": [
+    {
+      "productId": 1,
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNP8sTAVCQPle_fQFKEcV1woxzuLtBZfguhQ&usqp=CAU"
+    },
+    {
+      "productId": 3,
+      "imgUrl": "https://www.footlocker.id/media/catalog/product/cache/1384ea813c36abc3a773dd6494b9b881/0/3/03-NIKE-FFSSBNIK5-NIKDJ6106002-Grey.jpg"
+    },
+    {
+      "productId": 4,
+      "imgUrl": "https://www.footlocker.id/media/catalog/product/cache/1384ea813c36abc3a773dd6494b9b881/0/5/05-ADIDAS-F34RUADI5-ADIGY6227-White.jpg"
+    },
+    {
+      "productId": 5,
+      "imgUrl": "https://www.footlocker.id/media/catalog/product/cache/1361a5fa2136490ab0bb297f837f6217/0/2/02-NIKE-AYAV6NIK5-NIKDR8055100-White.jpg"
+    },
+    {
+      "imgUrl": "https://www.footlocker.id/media/catalog/product/cache/1384ea813c36abc3a773dd6494b9b881/0/2/02-CHAMPION-AAEHDCMP0-CMP217142BLK-Black.jpg",
+      "productId": 6
+    },
+    {
+      "imgUrl": "https://www.footlocker.id/media/catalog/product/cache/1384ea813c36abc3a773dd6494b9b881/0/3/03-UNDER-ARMOUR-SPORT-FFSSDUASA-UAS23761-105-Grey.jpg",
+      "productId": 7
+    }
+  ]
+}
